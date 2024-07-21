@@ -1,0 +1,51 @@
+/* STYLE FOR A BASIC CALCULATOR */
+
+body {
+    background-color:black; 
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+    background-color:darkseagreen; 
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #ccc; 
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #f3d8c7; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #eac6b7; 
+}
+.btn.clear {
+    background-color: #ff3333; 
+    color: #fff; 
+}
+
+.btn.operator {
+    background-color: #5088db; 
+    color: #fff; 
+}
